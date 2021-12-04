@@ -885,6 +885,10 @@ body {
   color: var(--accent-colot);
 }
 
+.agreement-label:hover > .agreement-icon {
+  border: 2px solid var(--accent-colot);
+}
+
 .agreement-input {
   -webkit-appearance: none;
   -moz-appearance: none;
