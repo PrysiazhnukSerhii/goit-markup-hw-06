@@ -876,12 +876,27 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  cursor: pointer;
+}
+
+.agreement-label:hover,
+.agreement-label:focus {
+  color: var(--accent-colot);
 }
 
 .agreement-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+
+.agreement-input:focus ~ span {
+  color: var(--accent-colot);
+}
+
+.agreement-input:focus + .agreement-icon {
+  border: 2px solid var(--accent-colot);
 }
 
 .agreement-icon {
